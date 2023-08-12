@@ -3,17 +3,17 @@ import { Navbar } from "@/components/Navbar";
 import { Bebas_Neue, Roboto, Source_Code_Pro } from "@next/font/google"
 import Link from 'next/link';
 
-export const bebas = Bebas_Neue({
+const bebas = Bebas_Neue({
     subsets: ['latin'],
     weight: '400',
 })
 
-export const roboto = Roboto({
+const roboto = Roboto({
     subsets: ['cyrillic'],
     weight: '300',
 })
 
-export const source_code = Source_Code_Pro({
+const source_code = Source_Code_Pro({
   subsets: ['latin'],
   weight: '400',
 })

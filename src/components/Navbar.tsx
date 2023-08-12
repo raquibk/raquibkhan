@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import signature from "../../public/Signature.svg";
+import { Links } from './Links';
 
 export function Navbar() {
     return <>
@@ -11,5 +12,6 @@ export function Navbar() {
                 className='h-14 sm:h-20'
             />
         </div>
+        <Links />
     </>
 }

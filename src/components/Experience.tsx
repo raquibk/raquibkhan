@@ -15,7 +15,7 @@ export function Experience() {
             />
             <ExperienceCard
                 image={InsideDesk}
-                title="InsideDesk Inc."
+                title="InsideDesk"
                 description='Software Developer Co-op'
                 timeline='May 2023 - Present'
             />

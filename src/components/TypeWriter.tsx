@@ -11,10 +11,10 @@ export function TypeWriter({text}: TypeWriterProps) {
         <div className="text-center text-xl text-zinc-500" >
             <Typewriter
                 words={text}
-                loop={1}
+                loop={5}
                 cursor
                 cursorStyle=''
-                typeSpeed={50}
+                typeSpeed={70}
                 deleteSpeed={50}
                 delaySpeed={1000}
             />

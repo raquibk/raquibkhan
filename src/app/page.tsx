@@ -1,10 +1,7 @@
 import { Experience } from "@/components/Experience";
-import { Links } from "@/components/Links";
 import { Navbar } from "@/components/Navbar";
 import { TypeWriter } from "@/components/TypeWriter";
-import { Bebas_Neue, Roboto, Source_Code_Pro } from "@next/font/google"
-import Mario from "../../public/mario.svg"
-import Image from 'next/image';
+import { Bebas_Neue, Roboto} from "@next/font/google"
 import { KnowMe } from "@/components/KnowMe";
 
 
@@ -17,11 +14,6 @@ const roboto = Roboto({
     subsets: ['cyrillic'],
     weight: '300',
 })
-
-// const source_code = Source_Code_Pro({
-//   subsets: ['latin'],
-//   weight: '300',
-// })
 
 async function shuffle<T>(array: T[]): Promise<T[]> {
   "use server"

@@ -46,17 +46,10 @@ export default async function Home() {
           <p className="text-xl mx-1"> my </p>
           <TypeWriter
             text={journey} />
-          {/* <Image 
-            priority
-            src={Mario}
-            alt='test'
-            className={`h-6 self-center animate-bounce`}
-            width={35}
-            /> */}
         </div>
         <Experience />
         <div className="flex justify-center flex-row mt-10">
-          <p className="text-xl mx-1"> Favorites </p>
+          <p className="text-xl mx-1"> favorites </p>
         </div>
         <KnowMe />
       </div>

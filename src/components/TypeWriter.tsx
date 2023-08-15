@@ -8,10 +8,10 @@ type TypeWriterProps = {
 export function TypeWriter({text}: TypeWriterProps) {
 
   return <>
-        <div className="text-center mt-16 text-xl" >
+        <div className="text-center text-xl text-zinc-500" >
             <Typewriter
                 words={text}
-                loop={1}
+                loop={5}
                 cursor
                 cursorStyle=''
                 typeSpeed={70}

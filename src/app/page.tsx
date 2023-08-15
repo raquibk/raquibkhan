@@ -18,10 +18,10 @@ const roboto = Roboto({
     weight: '300',
 })
 
-const source_code = Source_Code_Pro({
-  subsets: ['latin'],
-  weight: '300',
-})
+// const source_code = Source_Code_Pro({
+//   subsets: ['latin'],
+//   weight: '300',
+// })
 
 async function shuffle<T>(array: T[]): Promise<T[]> {
   "use server"
@@ -40,7 +40,7 @@ async function shuffle<T>(array: T[]): Promise<T[]> {
   }
 
   return array;
-};
+}
 
 export default async function Home() {
   let journey = ["journey", "journey", "journey", "journey", "journey", "journey", "राह", "سفر", "ಪ್ರಯಾಣ", "ప్రయాణం", "رحلة", "旅行", "여행", "путешествие", "voyage", "reise", "การเดินทาง", "resa", "seyahat", "যাত্ৰা"];

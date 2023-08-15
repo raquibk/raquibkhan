@@ -23,7 +23,8 @@ const source_code = Source_Code_Pro({
   weight: '300',
 })
 
-export function shuffle<T>(array: T[]): T[] {
+async function shuffle<T>(array: T[]): Promise<T[]> {
+  "use server"
   let currentIndex = array.length,  randomIndex;
 
   // While there remain elements to shuffle.
@@ -41,10 +42,9 @@ export function shuffle<T>(array: T[]): T[] {
   return array;
 };
 
-
-export default function Home() {
+export default async function Home() {
   let journey = ["journey", "journey", "journey", "journey", "journey", "journey", "राह", "سفر", "ಪ್ರಯಾಣ", "ప్రయాణం", "رحلة", "旅行", "여행", "путешествие", "voyage", "reise", "การเดินทาง", "resa", "seyahat", "যাত্ৰা"];
-  journey = shuffle(journey);
+  journey = await shuffle(journey);
   return <main className={`${roboto.className} text-sm`}>
     < Navbar />
     <div className="snap-proximity snap-y">

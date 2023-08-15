@@ -36,7 +36,8 @@ async function shuffle<T>(array: T[]): Promise<T[]> {
 
 export default async function Home() {
   let journey = ["journey", "journey", "journey", "journey", "journey", "journey", "राह", "سفر", "ಪ್ರಯಾಣ", "ప్రయాణం", "رحلة", "旅行", "여행", "путешествие", "voyage", "reise", "การเดินทาง", "resa", "seyahat", "যাত্ৰা"];
-  journey = await shuffle(journey);
+  journey = (await shuffle(journey));
+  journey.push("journey");
   return <main className={`${roboto.className} text-sm`}>
     < Navbar />
     <div className="snap-proximity snap-y">

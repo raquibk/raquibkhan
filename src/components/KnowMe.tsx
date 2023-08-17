@@ -9,20 +9,12 @@ const bebas = Bebas_Neue({
 export function KnowMe() {
     const listAttr = "text-slate-700 hover:text-amber-600 transition-all duration-500 ease-out";
     return <>
-        <div className="flex justify-center flex-wrap">
-            <div className="mx-36 mt-10">
-                <h1 className={`${bebas.className} mb-2 text-xl`}> Hobbies </h1>
-                <ol className="md:list-decimal">
-                    <li> Reading </li>
-                </ol>
-                
-            </div>
-            <div className="mx-36 mt-10">
+        <div className="flex flex-wrap justify-center grid-cols-3">
+            <div className="mt-10">
                 <h1 className={`${bebas.className} mb-2 text-xl`}> Movies </h1>
                 <ol className="md:list-decimal">
                     <li className={listAttr}> 
                         <Link href={'https://www.imdb.com/title/tt2194499/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_about%2520time'}> About Time </Link> 
-                        <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
                     </li>
                     <li className={listAttr}>
                         <Link href={'https://www.imdb.com/title/tt0468569/?ref_=chttp_t_3'}> The Dark Knight
@@ -42,12 +34,29 @@ export function KnowMe() {
                     </li>
                 </ol>
             </div>
-            <div className="mx-36 mt-10">
-                <h1 className={`${bebas.className} mb-2 text-xl`}> Games </h1>
+            <div className="mt-10">
+                <h1 className={`${bebas.className} mb-2 text-xl`}> Articles </h1>
                 <ol className="md:list-decimal">
-                    <li> Reading </li>
+                    <li className={listAttr}> 
+                        <Link href={'https://www.planetary.org/worlds/pale-blue-dot'}> A Pale Blue Dot </Link> 
+                    </li>
+                    <li className={listAttr}>
+                        <Link href={'https://www.abrahamlincolnonline.org/lincoln/speeches/bixby.htm'}> Letter to Mrs. Bixby
+                        </Link>
+                    </li>
+                    <li className={listAttr}>
+                        <Link href={'https://winstonchurchill.org/resources/speeches/1940-the-finest-hour/their-finest-hour/'}> Their Finest Hour
+                        </Link>
+                    </li>
+                    <li className={listAttr}>
+                        <Link href={'http://worrydream.com/refs/Brooks-NoSilverBullet.pdf'}> No Silver Bullet
+                        </Link>
+                    </li>
+                    <li className={listAttr}>
+                        <Link href={'https://www.goodreads.com/en/book/show/4069'}> Man's Search for Meaning 
+                        </Link>
+                    </li>
                 </ol>
-                
             </div>
         </div>
     </>

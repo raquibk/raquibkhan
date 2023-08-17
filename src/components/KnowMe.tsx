@@ -52,10 +52,6 @@ export function KnowMe() {
                         <Link href={'http://worrydream.com/refs/Brooks-NoSilverBullet.pdf'}> No Silver Bullet
                         </Link>
                     </li>
-                    <li className={listAttr}>
-                        <Link href={'https://www.goodreads.com/en/book/show/4069'}> Man's Search for Meaning 
-                        </Link>
-                    </li>
                 </ol>
             </div>
         </div>

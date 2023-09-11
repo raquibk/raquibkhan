@@ -1,3 +1,4 @@
+import { BlogLink } from "@/components/BlogLink";
 import { Experience } from "@/components/Experience";
 import { Navbar } from "@/components/Navbar";
 import { TypeWriter } from "@/components/TypeWriter";
@@ -47,7 +48,17 @@ export default async function Home() {
           text={journey} />
       </div>
       <Experience />
+      <div className="flex justify-center flex-row mt-10">
+        <p className="text-lg mx-1"> 
+          Blogs
+        </p>
+      </div>
+      <div className="mt-5">
+        <BlogLink title={"about me"} link={"/aboutme"}></BlogLink>
+        
+      </div>
     </div>
+
 
   </main>
 }

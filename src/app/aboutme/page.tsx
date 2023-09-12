@@ -14,9 +14,9 @@ export default function Home() {
             priority
             src={worldMap}
             alt='Map'
-            className={`h-32 m-6 -mb-2`}
+            className={`md:scale-50 scale-[0.5] m-6 -mb-2`}
             />
-            <p className={`${bebas.className} mt-10 sm:mt-20 sm:text-2xl text-3xl text-center`}> in development </p>
+            <p className={`${bebas.className} text-3xl text-center`}> in development </p>
         </div>
     </>
 }

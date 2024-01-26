@@ -38,7 +38,7 @@ export default async function Home() {
   let journey = ["journey", "journey", "journey", "journey", "journey", "journey", "राह", "سفر", "ಪ್ರಯಾಣ", "ప్రయాణం", "رحلة", "旅行", "여행", "путешествие", "voyage", "reise", "การเดินทาง", "resa", "seyahat", "যাত্ৰা"];
   journey = (await shuffle(journey));
   journey.push("journey");
-  return <main className={`${roboto.className} text-sm`}>
+  return <main className={`${roboto.className} text-md`}>
     < Navbar />
     <div className="sm:mx-40">
       <p className={`${bebas.className} mt-10 sm:mt-20 sm:text-4xl text-3xl text-center`}> I am a <span className="hover:underline decoration-slate-800/[0.33]"> software engineer </span> who likes working on interesting problems and building robust solutions<span className="animate-pulse"> . </span></p>

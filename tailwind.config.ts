@@ -20,6 +20,18 @@ const config: Config = {
       }
     }
   },
+  extend: {
+    animation: {
+      "text-gradient": "text 1.5s linear infinite",
+    },
+    keyframes: {
+      text: {
+        to: {
+          backgroundPosition: "200% center",
+        },
+      },
+    },
+  },
   plugins: [],
 }
 export default config

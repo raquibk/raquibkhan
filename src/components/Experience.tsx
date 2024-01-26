@@ -10,14 +10,14 @@ export function Experience() {
         <ExperienceCard
           image={UofA}
           title="University of Alberta"
-          description="Software Engineering"
-          timeline="Graduating May 2024"
+          description="BSc. Software Engineering"
+          timeline="Sep. 2019 - May 2024"
         />
         <ExperienceCard
           image={InsideDesk}
           title="InsideDesk"
           description="Software Developer Co-op"
-          timeline="May 2023 - Present"
+          timeline="May 2023 - Dec. 2023"
         />
         <ExperienceCard
           image={Scotiabank}

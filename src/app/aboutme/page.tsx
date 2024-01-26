@@ -1,6 +1,7 @@
 import { Bebas_Neue, Roboto } from "@next/font/google";
 import Image from "next/image";
 import HogsBack from "../../../public/Hogs.png";
+import Sisyphus from "../../../public/sisyphus.png"
 import { Navbar } from "@/components/Navbar";
 import Link from "next/link";
 
@@ -35,7 +36,7 @@ export default function Home() {
             <Image
               priority
               src={HogsBack}
-              alt="test"
+              alt="a picture of me"
               className="px-4 lg:scale-125 lg:mb-10"
               height={300}
             />
@@ -93,7 +94,80 @@ export default function Home() {
             insurance data.
           </p>
           <br />
-          <p className=""> I love hiking. I love snowboarding. I love geography. Most of all, I love trying new things.  </p>
+          <p className="">
+            {" "}
+            I love hiking. I love snowboarding. I love geography. I love cinema.
+            I love traveling. I love languages. I love doing a lot of things. I
+            love trying new things.{" "}
+          </p>
+          <br />
+          <h3 className="font-bold"> My relationship with trying </h3>
+          <div className="flex justify-center">
+            <Image
+              priority
+              src={Sisyphus}
+              alt="a picture of me"
+              className="px-4 lg:scale-125 lg:mb-10 lg:mt-10"
+              height={300}
+            />
+          </div>
+          <p className=" text-slate-500 text-xs text-center">
+            {" "}
+            <Link
+              href="https://www.britannica.com/topic/The-Myth-of-Sisyphus"
+              className="underline hover:text-slate-900"
+              target="blank"
+            >
+              {" "}
+              Le Mythe de Sisyphe (The Myth of Sysyphus)
+            </Link>{" "}
+          </p>
+          <br />
+          <p>
+            {" "}
+            Sisyphus was condemned by the gods to roll a boulder uphill for
+            eternity. At first, he rebelled. He cursed himself, he cursed his
+            life. Eventually he realized, the most effective form rebelling was
+            to rejoice the act, and accept his fate. What a metaphor for life,
+            no?{" "}
+          </p>
+          <br />
+          <p>
+            {" "}
+            Life has numerous challenges; There&apos;s always someone with
+            better circumstances that me, and someone else with worse
+            ciscumstances than me. All I can do, is joyously accept what is in
+            front of me, and face it head-on. And if I do not know how to face
+            it, I <span className="italic"> try </span> to face it.{" "}
+          </p>
+          <br />
+          <p>
+            {" "}
+            So I try. I always try til I succeed. Try till that boulder rolls
+            all the way up the hill. And I enjoy it. This is my latest venture
+            of &apos;trying&apos;: Web Development, and writing. I have an
+            intrinsic fear of how fast time passes, and I think writing will
+            help with slowing the pace, allowing me to think, and relive my
+            recent memories. I have also been fascinated with web development,
+            and this is my shot at trying it. By reading this, you are accessing
+            a piece of my mind. Welcome, and thank you for reading this. I hope this journey is pleasant for
+            you.{" "}
+          </p>
+          <br />
+          <p className="mb-10">
+            {" "}
+            I will write a weekly blog, about all the things I think of and
+            experience. Some blogs will be short, some will be long. All will be
+            badly written, but I will improve my writing as time goes by. If you
+            have any thoughts, feel free to mail me at{" "}
+            <Link
+              href="mailto:r.raquib01@gmail.com?subject=Hello from Raquib's Blog"
+              className="underline hover:text-slate-900"
+            >
+              {" "}
+              r.raquib (at) gmail (dot) com.
+            </Link>{" "}
+          </p>
         </div>
       </div>
     </main>

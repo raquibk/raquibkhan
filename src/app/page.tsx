@@ -2,7 +2,7 @@ import { BlogLink } from "@/components/BlogLink";
 import { Experience } from "@/components/Experience";
 import { Navbar } from "@/components/Navbar";
 import { TypeWriter } from "@/components/TypeWriter";
-import { Bebas_Neue, Roboto} from "@next/font/google"
+import { Bebas_Neue, Roboto} from "next/font/google"
 
 
 const bebas = Bebas_Neue({

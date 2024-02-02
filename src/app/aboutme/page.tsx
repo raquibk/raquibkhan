@@ -1,4 +1,4 @@
-import { Bebas_Neue, Roboto } from "@next/font/google";
+import { Bebas_Neue, Roboto } from "next/font/google";
 import Image from "next/image";
 import HogsBack from "../../../public/Hogs.png";
 import Sisyphus from "../../../public/sisyphus.png"

@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.4.13",
     "@svgr/webpack": "^8.0.1",
     "@types/node": "20.4.9",
     "@types/react": "18.2.20",

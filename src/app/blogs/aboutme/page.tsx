@@ -1,7 +1,7 @@
 import { Bebas_Neue, Roboto } from "next/font/google";
 import Image from "next/image";
-import HogsBack from "../../../public/Hogs.png";
-import Sisyphus from "../../../public/sisyphus.png"
+import HogsBack from "../../../../public/Hogs.png";
+import Sisyphus from "../../../../public/sisyphus.png"
 import { Navbar } from "@/components/Navbar";
 import Link from "next/link";
 
@@ -24,13 +24,6 @@ export default function Home() {
         ABOUT ME{" "}
       </p>
       <div className="flex justify-around mt-10 flex-wrap">
-        {/* <Spotify link="https://open.spotify.com/track/1ijxFUEg4lVYjBETDb4cHW" /> */}
-        {/* <Image
-            priority
-            src={worldMap}
-            alt="Map"
-            className={`md:scale-50 scale-[0.5] m-6 -mb-2`}
-          /> */}
         <div className="px-4">
           <div className="flex justify-center">
             <Image

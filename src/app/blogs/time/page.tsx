@@ -30,12 +30,12 @@ function MyStopwatch() {
         >
           {totalSeconds}
         </div>
+        {/* code snoopers: i am assuming this article doesn't take more than a 1000 seconds to read. Going to be quite chaotic on phone if it exceeds a 1000 */}
         <div className={`text-4xl ${roboto.className}`}>
           {totalSeconds < 10
             ? "the trouble is, you think you have time - buddha"
-            : ""}
+            : "↓"}
         </div>
-        <div className="text-4xl hover:animate-bounce"> ↓ </div>
       </div>
     </div>
   );
@@ -53,7 +53,7 @@ export default function Home() {
         <div
           className={`sm:mx-40 ${bebas.className} mt-10 sm:mt-20 sm:text-4xl text-3xl mx-5`}
         >
-          <p>to be continued</p>
+          <p className='h-screen'>to be continued</p>
         </div>
       </div>
     );

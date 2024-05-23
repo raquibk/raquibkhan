@@ -65,6 +65,7 @@ export default async function Home() {
         <div className="mt-5 mb-10">
           <BlogLink title={"about me"} link={"/blogs/aboutme"}></BlogLink>
           <BlogLink title={"algorithms"} link={"/blogs/algorithms"}></BlogLink>
+          <BlogLink title={"time"} link={"/blogs/time"}></BlogLink>
         </div>
       </div>
     </main>
